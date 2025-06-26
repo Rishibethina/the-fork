@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<p>The dataset contains information on median income across various census tracts in New York City, categorized by race. Each entry includes a unique identifier for the census tract, the corresponding county, the state (New York), the racial demographic, and the median income for that demographic within the tract. The data encompasses multiple racial groups, including White, Black, Hispanic, and Asian populations, reflecting the diverse demographic landscape of the city. Notably, some entries have missing values for median income, which are represented as “NA.” The dataset is structured to facilitate analysis of income disparities among different racial groups across various counties in New York City, providing valuable insights into socioeconomic conditions and potential inequalities within the urban environment. This information can be instrumental for policymakers, researchers, and community organizations aiming to address economic disparities and improve living conditions in the city. About this site</p>
 
 
 
@@ -210,7 +210,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Rishibethina\.github\.io\/the-fork\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

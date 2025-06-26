@@ -4,13 +4,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Census tracts",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The dataset contains information on median income across various census tracts in New York City, categorized by race. Each entry includes a unique identifier for the census tract, the corresponding county, the state (New York), the racial demographic, and the median income for that demographic within the tract. The data encompasses multiple racial groups, including White, Black, Hispanic, and Asian populations, reflecting the diverse demographic landscape of the city. Notably, some entries have missing values for median income, which are represented as “NA.” The dataset is structured to facilitate analysis of income disparities among different racial groups across various counties in New York City, providing valuable insights into socioeconomic conditions and potential inequalities within the urban environment. This information can be instrumental for policymakers, researchers, and community organizations aiming to address economic disparities and improve living conditions in the city. About this site"
   }
 ]
